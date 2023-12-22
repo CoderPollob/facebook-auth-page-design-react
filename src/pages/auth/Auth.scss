@@ -1,0 +1,108 @@
+.fb-auth-area {
+  background-color: var(--fb-bg-gray);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .fb-auth-container {
+    width: 977px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .fb-auth-left {
+      img {
+        width: 300px;
+        transform: translate(-30px, 10px);
+      }
+
+      h2 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        width: 80%;
+      }
+    }
+
+    .fb-auth-right {
+      .fb-auth-box {
+        width: 395px;
+        background-color: #ffff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: var(--fb-shadow);
+        text-align: center;
+
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          input {
+            border-radius: 6px;
+            padding: 14px 16px;
+            font-size: 17px;
+            border: var(--fb-border);
+          }
+
+          .login-button {
+            border-radius: 6px;
+            padding: 14px 16px;
+            font-size: 17px;
+            background-color: var(--fb-primary-color);
+            cursor: pointer;
+            color: #ffff;
+            border: none;
+            font-size: 20px;
+          }
+        }
+
+        a {
+          font-size: 14px;
+          margin: 15px 0px;
+          display: block;
+          color: var(--fb-primary-color);
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .divider {
+          height: 1px;
+          border-top: var(--fb-border);
+          margin: 20px 0px;
+        }
+
+        .create-button {
+          border-radius: 6px;
+          padding: 14px 16px;
+          font-size: 16px;
+          background-color: var(--fb-secoundery-color);
+          cursor: pointer;
+          color: #ffff;
+          border: none;
+          font-size: 20px;
+          margin-bottom: 10;
+
+          &:hover {
+            background-color: #36a420;
+            transform: 0.3s;
+          }
+        }
+      }
+
+      .fb-auth-dis {
+        font-size: 14px;
+        text-align: center;
+        margin: 25px 0px;
+
+        a {
+          font-weight: 600;
+          color: #111;
+        }
+      }
+    }
+  }
+}
