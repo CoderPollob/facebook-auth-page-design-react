@@ -9,11 +9,11 @@
     width: 977px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
     .fb-auth-left {
+      margin-top: 20px;
       img {
-        width: 300px;
+        width: 320px;
         transform: translate(-30px, 10px);
       }
 
